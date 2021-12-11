@@ -139,8 +139,7 @@ resource "aws_instance" "linux" {
       "sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'",
       "sudo apt-get update",
       "sudo apt-get install jenkins -y",
-      "sudo systemctl enable jenkins"     
-
+      "sudo systemctl enable jenkins" 
     ]
 
   }
