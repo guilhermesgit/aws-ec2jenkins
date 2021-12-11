@@ -140,6 +140,8 @@ resource "aws_instance" "linux" {
       "sudo apt-get update",
       "sudo apt-get install jenkins -y",
       "sudo systemctl enable jenkins"     
+
+      
     ]
   }
 
