@@ -142,6 +142,7 @@ resource "aws_instance" "linux" {
       "sudo systemctl enable jenkins"     
 
     ]
+    
   }
 
 }
