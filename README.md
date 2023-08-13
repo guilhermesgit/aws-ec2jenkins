@@ -66,9 +66,9 @@ Dentro do seu terminal, após gerar a key e root token, faça variáveis de ambi
 A ideia é utilizar o Hashicorp vault para armazenas a secret do provider da aws onde ele pode ser utilizado via profile, variáveis de ambiente.
 Utilizando o vault, podemos criar as credenciais genéricas e criar os ambientes de desenvolimento
 
-secret/aws-dev
-secret/aws-homol
-secret/aws-prod
+[dev]secret/aws-dev
+[homol]secret/aws-homol
+[prod]secret/aws-prod
 
 Cada secret representaria um profile do aws config.
 
