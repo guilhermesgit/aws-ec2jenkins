@@ -39,6 +39,12 @@ docker ps |grep -i vault
 Acessando a aplicação:
 
 http://localhost:8200
+
+Dentro do seu terminal, após gerar a key e root token, faça variáveis de ambiente para não export as credenciais no código.
+
+ export VAULT_ADDR=http://127.0.0.1:8200
+ 
+ export VAULT_TOKEN="cole o token aqui"
 ## Documentação
 
 
