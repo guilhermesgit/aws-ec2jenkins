@@ -3,3 +3,8 @@
 *.tfstate
 *.tfstate.*
 *.tfvars
+.pem
+*.pem
+.terraform
+.terraform.lock.hcl
+terraform.lock.hcl
