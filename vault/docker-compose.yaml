@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+
+    vault:
+      image: vault:1.13.3
+      container_name: vaultdocker
+      restart: on-failure
+      volumes:
+        - "./vault/config:/vault/config"
+        - "./vault/policies:/vault/policies"
+        - "./vault/data:/vault/data"
+      ports:
+        - 8200:8200
+      cap_add:
+        - IPC_LOCK
+      command: vault server -config=/vault/config/vault.json
