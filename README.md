@@ -29,7 +29,7 @@ Antes de utilizar a aplicação é necessário ter os seguintes programas instal
 - VSCode
 ```bash
    Subindo o hashicorp vault localmente utilizando docker-compose
-   cd vault ; docker-compose up -d 
+   cd vault-docker ; docker-compose up -d 
 
 ```
 
