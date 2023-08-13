@@ -67,7 +67,9 @@ A ideia é utilizar o Hashicorp vault para armazenas a secret do provider da aws
 Utilizando o vault, podemos criar as credenciais genéricas e criar os ambientes de desenvolimento
 
 [dev]secret/aws-dev
+
 [homol]secret/aws-homol
+
 [prod]secret/aws-prod
 
 Cada secret representaria um profile do aws config.
