@@ -43,8 +43,12 @@ http://localhost:8200
 Dentro do seu terminal, após gerar a key e root token, faça variáveis de ambiente para não export as credenciais no código.
 
  export VAULT_ADDR=http://127.0.0.1:8200
- 
+
  export VAULT_TOKEN="cole o token aqui"
+
+ Para verificar se deu certo, digite:
+
+ vault status dentro do cli do seu pc.
 ## Documentação
 
 
@@ -56,7 +60,14 @@ Dentro do seu terminal, após gerar a key e root token, faça variáveis de ambi
 
 
 ## Cenário 
+A ideia é utilizar o Hashicorp vault para armazenas a secret do provider da aws onde ele pode ser utilizado via profile, variáveis de ambiente.
+Utilizando o vault, podemos criar as credenciais genéricas e criar os ambientes de desenvolimento
 
+secret/aws-dev
+secret/aws-homol
+secret/aws-prod
+
+Cada secret representaria um profile do aws config.
 
 
 ## Cenário
