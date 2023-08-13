@@ -42,10 +42,14 @@ http://localhost:8200
 
 Dentro do seu terminal, após gerar a key e root token, faça variáveis de ambiente para não export as credenciais no código.
 
+- Endereço do Vault server rodando localmente
+
  export VAULT_ADDR=http://127.0.0.1:8200
 
  Após logar, o sistema irá pedir para vc digitar a quantidade de keys digite: 1 ,1
  Você terá um key e um root token para acessar.
+
+ - Root token gerado na instalação
 
  export VAULT_TOKEN="cole o token aqui"
 
@@ -85,3 +89,13 @@ Cada secret representaria um profile do aws config.
 ![AWS](img/4-vault.png)
 
 
+Logo após, digitar:
+
+```bash
+  terraform fmt --recursive : ajusta a sintaxe do código.
+  terraform validate : verificar se o código está Ok.
+  terraform plan : dry run da aplicação , testa antes de aplicar.
+  terraform apply : aplica a configuração.
+  terraform destroy: deleta os recursos criados.
+
+```
