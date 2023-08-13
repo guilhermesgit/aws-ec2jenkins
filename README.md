@@ -92,6 +92,7 @@ Cada secret representaria um profile do aws config.
 Logo após, digitar:
 
 ```bash
+  terraform init : baixa o provider e módulos
   terraform fmt --recursive : ajusta a sintaxe do código.
   terraform validate : verificar se o código está Ok.
   terraform plan : dry run da aplicação , testa antes de aplicar.
