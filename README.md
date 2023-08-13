@@ -15,7 +15,7 @@ Jenkins é um software focado em entrega contínua para fazer o pipeline de suas
 
 ## Authors
 
-- [@oguilhermesoares](https://www.github.com/guilhermesgit)
+- [@guilhermesoares](https://www.github.com/guilhermesgit)
 
 
 ## Criação da aplicação
