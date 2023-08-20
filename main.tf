@@ -12,8 +12,8 @@ module "vpc" {
 module "ec2" {
   source                 = "./modules/ec2"
   instance_type          = "t2.micro"
-  subnet_id              = module.vpc.public_subnet_cidrs
-  key_name               = "linux_devops"
+  subnet_id              = "subnet-0deed5561f3738b6c"
+  key_name               = "linux-devops"
   vpc_security_group_ids = [module.vpc.vpc_security_group_ids]
 
 }

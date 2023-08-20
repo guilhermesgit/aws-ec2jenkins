@@ -89,6 +89,7 @@ Cada secret representaria um profile do aws config.
 ![AWS](img/4-vault.png)
 
 
+
 Logo após, digitar:
 
 ```bash
@@ -100,3 +101,4 @@ Logo após, digitar:
   terraform destroy: deleta os recursos criados.
 
 ```
+1) Deixar comentado a parte da EC2, pegar o id da subnet e depois rodar terraform apply novamente

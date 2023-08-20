@@ -7,10 +7,10 @@ terraform {
   }
 }
 
-provider "vault" {
-  address = ""
-  token   = ""
-}
+#provider "vault" {
+#  address = ""
+#  token   = ""
+#}
 
 
 data "vault_generic_secret" "aws_creds" {
